@@ -1,8 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
 * {
   box-sizing: border-box;
 }
-
-body {
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+body,
+html {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+/* carousel */
+.caro-item {
+  height: 650px;
+}
+
+.caption {
+  /* position: absolute; */
+  top: 18rem;
+}
+.caption h5 {
+  color: #f33f3f;
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.caption h2 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.product-directory {
+  margin: auto !important;
+}
+
+.card {
+  width: 320px;
+  height: 400px;
+}
+.card-img-overlay {
+  /* width: 300px;
+  height: 400px; */
+}
+@media only screen and (max-width: 726px) {
 }

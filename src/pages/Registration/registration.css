@@ -1,0 +1,24 @@
+.signup_page {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+}
+.signup_page h1 {
+  color: #270a47;
+}
+.signup_page button {
+  background-color: #270a47;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .signup_page {
+    padding: 20px;
+  }
+  .signup_page form {
+    z-index: 90000;
+  }
+  .signup_page h1 {
+    font-size: 1.5rem;
+  }
+}

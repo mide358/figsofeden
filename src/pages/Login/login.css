@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.login_page {
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  height: calc(100%-5rem-5rem) !important;
+}
+.login_group_btn {
+  margin: 5rem auto;
+}
+
+.login_page h1 {
+  color: #270a47;
+}
+.login_group_btn button {
+  background-color: #270a47;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .login_page {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+  }
+  .login_page h1 {
+    font-size: 1.5rem;
+  }
+
+  .login_btn {
+    width: 100%;
+    /* justify-content: center; */
+  }
+}
